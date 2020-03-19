@@ -6,12 +6,14 @@
 package za.co.discovery_bank.repositories;
 
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
 import za.co.discovery_bank.entities.ClientSubType;
 
 /**
  *
  * @author ayuk
  */
+@Repository
 public interface ClientSubTypeRepository extends CrudRepository<ClientSubType, String>{
     
 }

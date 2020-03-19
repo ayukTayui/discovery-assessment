@@ -7,12 +7,14 @@ package za.co.discovery_bank.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
 import za.co.discovery_bank.entities.CurrencyConversionRate;
 
 /**
  *
  * @author ayuk
  */
+@Repository
 public interface CurrencyConversionRateRepository extends JpaRepository<CurrencyConversionRate, String> {
     
 }
